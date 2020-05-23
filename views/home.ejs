@@ -1,11 +1,16 @@
 <%- include("partials/header"); %>
 
-<h1>Home</h1>
-<p><%= homeText %></p>
+<h1>Home Page</h1>
+<p>This is a simple blog post that allows you to navivate through auxillary
+ pages and use this program as a blog/diary. Start by pushing the compose
+ link in the top right and write your first post! Once you have your first
+ post, you can click on the Read More link that will take you to a completely
+ separate page, which will help clear out the clutter once there are too many
+ posts 😁</p>
 
 <%postList.forEach(function(post) { %>
   <h1><%= post.title %></h1>
-  <p><%= post.body.substr(0,100)%> ... <a href="/posts/<%= post.title %>">Read More</a></p> 
+  <p><%= post.body.substr(0,100)%> ... <a href="/posts/<%= post.title %>">Read More</a></p>
 <%});%>
 
 <%- include("partials/footer"); %>

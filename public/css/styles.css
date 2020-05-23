@@ -1,7 +1,13 @@
+p {
+  line-height: 1.75;
+  font-size: 1.6rem;
+}
+
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
 }
+
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -11,6 +17,7 @@
     font-size: 12px;
     letter-spacing: 5px;
 }
+
 .navbar-nav  li a:hover {
     color: #1abc9c !important;
 }
