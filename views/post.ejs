@@ -3,4 +3,9 @@
 <h1><%= post.title %></h1>
 <p><%= post.body %></p>
 
+<form action="/posts/<%=post.storedTitle%>" method="post">
+  <button type="submit">Delete This Post</button>
+</form>
+
+
 <%- include("partials/footer"); %>
