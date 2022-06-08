@@ -1,0 +1,24 @@
+{
+  "homepage": "https://alexz12948.github.io/Simple-Blog",
+  "name": "Simple Blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm install",
+    "deploy": "gh-pages -d ."
+  },
+  "author": "Alexander Zsikla",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.16"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
